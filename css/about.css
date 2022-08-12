@@ -1,0 +1,26 @@
+
+.atention {
+    margin: 1rem auto;
+    background: yellow;
+    color: rgb(116, 0, 0);
+    padding: .01rem .5rem;
+}
+
+.big-logo {
+    display: table;
+    margin: auto;
+    font-size: 100px;
+    text-align: center;
+}
+
+.big-logo small {
+    display: block;
+    font-size: inherit;
+    font-size: small;
+}
+
+@media(min-width: 601px) {
+    .atention {
+        width: 90%;
+    }}
+    
